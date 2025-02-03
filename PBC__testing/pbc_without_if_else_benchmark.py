@@ -29,4 +29,4 @@ if __name__ == "__main__":
     pbc_system = PBC3WithoutIfElse(periodic_length=10.0, axes_type=AxesTypeEnum.NEGATIVE_POSITIVE)
 
     # Benchmark the wrap function with 100000 iterations
-    benchmark_wrap_function(pbc_system, num_iterations=100000)
+    benchmark_wrap_function(pbc_system, num_iterations=10000000)
